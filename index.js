@@ -8,19 +8,6 @@ var chokidar = require('chokidar');
 var DIRECTORY = path.join(process.cwd(), 'test');
 var FILE_TO_WATCH = path.join(DIRECTORY, 'my-file.ts');
 
-function makeDirectory() {
-
-}
-
-function createFile() {
-
-}
-
-function initializeWatchers() {
-  return chokidar.watch(FILE_TO_WATCH)
-}
-
-
 // create a directory
 fs.mkdirSync(DIRECTORY);
 
