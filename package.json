@@ -1,0 +1,14 @@
+{
+  "name": "chokidar-bug",
+  "version": "1.0.0",
+  "description": "showing a bug in chokidar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Bucholtz <dan.b@ionic.io> (http://ionic.io)",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^1.6.1"
+  }
+}
